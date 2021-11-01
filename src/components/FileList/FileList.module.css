@@ -1,0 +1,37 @@
+/** FILE LIST STYLES */ 
+
+.file-list {}
+
+.file-list__controls {
+  display: flex; 
+  justify-content: flex-start; 
+  align-items: center; 
+
+  font-size: 1.6rem; 
+}
+
+.file-list__controls > * {
+  margin-right: 24px; 
+}
+
+.file-list__counter {
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.file-list__table {
+  width: 100%; 
+
+  font-size: 1.1rem; 
+  color: #4a4a4a; 
+  text-align: left; 
+
+  border-collapse: collapse;
+  border: 1px solid #e6e6e6;;
+}
+
+.file-list__table td { padding-right: 12px;}
+
+
+

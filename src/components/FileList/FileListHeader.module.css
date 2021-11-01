@@ -1,0 +1,14 @@
+.fl-table__tr--header {
+  height: 41px; 
+}
+
+.fl-table__th {
+  font-size: 1.4rem; 
+  font-weight: 400; 
+}
+
+.fl-table__th--status {
+  padding-left: 23px;
+  font-size: 1.4rem; 
+  font-weight: 400; 
+}

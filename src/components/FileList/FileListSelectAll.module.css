@@ -1,0 +1,65 @@
+
+.select-all {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+
+  width: 32px; 
+  height: 32px; 
+  
+  cursor: pointer; 
+
+  background-color: transparent; 
+  border: none; 
+}
+
+  .select-all:focus-visible {
+    outline: 1px dashed #757575; 
+    outline-offset: -3px; 
+  }
+
+.select-all__box {
+  position: relative; 
+  width: 14px; 
+  height: 14px;
+  
+  border: 1px solid #757575; 
+  border-radius: 2px; 
+
+  transition: background-color .3s ease-in-out, border-color .3s ease-in-out; 
+}
+
+.select-all__box svg {
+  position: absolute; 
+  top: 0;
+  left: 0;  
+  
+  width: 100%; 
+  height: 100%; 
+  fill: white; 
+  opacity: 0; 
+
+  transition: opacity .3s ease-in-out; 
+}
+.select-all__box svg.icon-check { top: 1px; }
+
+/** partial select */ 
+.select-all[data-state='partial'] .select-all__box {
+  background-color: #5293d7;
+  border-color: #5293d7;
+}
+
+.select-all[data-state='partial'] .select-all__box svg.icon-bar {
+  opacity: 1; 
+}
+
+
+/** all select */ 
+.select-all[data-state='all'] .select-all__box {
+  background-color: #5293d7;
+  border-color: #5293d7;
+}
+
+.select-all[data-state='all'] .select-all__box svg.icon-check {
+  opacity: 1; 
+}

@@ -1,0 +1,53 @@
+
+
+.fl-item {
+  height: 35px;
+  border-top: 1px solid #e6e6e6;
+
+  cursor: pointer; 
+  background-color: transparent; 
+  transition: background-color .3s ease-in-out; 
+}
+
+
+  .fl-item:hover {
+    background-color: #f5f5f5; 
+  }
+
+  .fl-item:focus-visible {
+    outline: 1px dashed #757575; 
+    outline-offset: -3px; 
+  }
+
+  .fl-item > td {
+    vertical-align: middle;
+  }
+
+.fl-item__cell--status {
+  position: relative; 
+  padding-left: 23px; 
+}
+
+
+/** checked status */ 
+.fl-item[data-checked='true'] {
+  background-color: #eeeeee;
+}
+
+.fl-item[data-checkd='true']:hover {
+  background-color: #eeeeee; 
+}
+
+/** available status */ 
+[data-status='available'] .fl-item__cell--status:before {
+    content: ''; 
+    position: absolute; 
+    left: 0; 
+
+    display: block;
+    width: 15px; 
+    height: 15px; 
+
+    background-color: #88cd3e; 
+    border-radius: 50%; 
+}
