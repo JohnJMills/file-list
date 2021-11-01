@@ -1,5 +1,19 @@
 # File List React Control
 
+## Getting Started
+
+1. Clone the repository or download the zip file to your hard drive.
+2. Open a terminal in the root directory of the project
+3. Run `npm install` to set up the project dependencies
+4. Run `npm start` to build and run the sample application
+5. Navigate to `http://localhost:000` to view the test page
+
+## Notes
+
+The project uses some generic CSS from another project to host the control. All the components files are in the `src/components/FileList` folder.
+
+## Project Requirements
+
 Implement a re-usable component in React.js that lists files and allows them to be downloaded. See example:
 
 ![Example Image](example.png)
@@ -20,7 +34,7 @@ This component displays a list of files which can be downloaded. It should be ab
 
 ]
 
-Requirements:
+## Requirements:
 
 · Only those that have a status of "available" are currently able to be downloaded. Your implementation should manage this.
 
@@ -41,3 +55,5 @@ Requirements:
 · Clicking "Download Selected" when some or all items are displayed should generate an alert box with the path and device of all selected files.
 
 · Precise/exact HTML formatting/styling to match the mockup is not required however rows should change colour when selected and on hover.
+
+\*\* Notes
