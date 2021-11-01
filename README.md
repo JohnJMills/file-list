@@ -12,7 +12,7 @@
 
 The project uses some generic CSS from another project to host the control. All the components files are in the `src/components/FileList` folder.
 
-## Project Requirements
+## Project Details
 
 Implement a re-usable component in React.js that lists files and allows them to be downloaded. See example:
 
@@ -34,7 +34,7 @@ This component displays a list of files which can be downloaded. It should be ab
 
 ]
 
-## Requirements:
+### Requirements
 
 · Only those that have a status of "available" are currently able to be downloaded. Your implementation should manage this.
 
