@@ -2,7 +2,7 @@
 
 Implement a re-usable component in React.js that lists files and allows them to be downloaded. See example:
 
-[![Example Image](example.png)]
+![Example Image](example.png)
 
 This component displays a list of files which can be downloaded. It should be able to be given the following data:
 
